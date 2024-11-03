@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Client-side Technologies</title>
+    <link rel="stylesheet" href="css/temp.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Introduction to Client-side Technologies</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="tables cont">
+                <div class="head">
+                    <h2>Tables in HTML</h2>
+                </div>
+                <div class="body">
+                    <ul>
+                        <li>HTML tables allow web developers to arrange data into rows and columns.</li>
+                        <li>A table in HTML consists of table cells inside rows and columns.</li>
+                    </ul>
+                    <h3>HTML Tables Syntax</h3>
+                    <ul class="inside">
+                        <li><b>&lt;table&gt;</b><b>&lt;/table&gt;</b></li>
+                        <li>Each table row starts with a <b>&lt;tr&gt;</b> and ends with a <b>&lt;/tr&gt;</b> tag.</li>
+                        <b>tr</b> stands for table row.
+                        <li>Each table cell is defined by a <b>&lt;td&gt;</b> and a <b>&lt;/td&gt;</b> tag.</li>
+                        <b>td</b> stands for table data.
+                        <li>Sometimes you want your cells to be table <b>header cells</b>. In those cases use the <b>&lt;th&gt;</b> tag instead of the <b>&lt;td&gt;</b> tag</li>
+                    </ul>
+                    <div class="content">
+                        <p>Example:</p>
+                        <img src="images/table.png" alt="table">
+                    </div>
+                </div>
+            </div>
+
+            <div class="div cont">
+                <div class="head">
+                    <h2>HTML Div Element</h2>
+                </div>
+                <div class="body">
+                    <ul>
+                        <li>The <b>&lt;div&gt;</b> element defines a section in a document (block-level).</li>
+                        <li>The <b>&lt;div&gt;</b> element is used as a <strong>container</strong> for other HTML elements.</li>
+                        <li>The <b>&lt;div&gt;</b> element is by default a block element.</li>
+                        <li>The <b>&lt;div&gt;</b> element has no required attributes.</li>
+                        <li>The <b>&lt;div&gt;</b> element is often used to group sections of a web page together.</li>
+                    </ul>
+                    <p>Example:</p>
+                    <div class="color">
+                        <h3>Heading of a div</h3>
+                        <p>Paragraph one in a div.</p>
+                        <p>Paragraph two in a div, and we can add img, link, ...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="semantic cont">
+                <div class="head">
+                    <h2>HTML Semantic Elements</h2>
+                </div>
+                <div class="body">
+                    <ul>
+                        <li>Semantic elements = elements with a meaning.</li>
+                        <li>A <b>semantic element</b> clearly describes its meaning to both the browser and the developer.</li>
+                        <li>In HTML there are some <b>semantic elements</b> that can be used to define different parts of a web page:</li>
+                        <ul class="inside"> 
+                            <li style="margin-bottom:15px;">
+                                HTML <b>&lt;section&gt;</b> Element :
+                                <ul class="inside">
+                                    <li>The <b>&lt;section&gt;</b> element defines a section in a document.</li>
+                                    <li>According to W3C's HTML documentation: "A <b>section</b> is a thematic grouping of content, typically with a heading."</li>
+                                    <li>
+                                        Examples of where a <b>&lt;section&gt;</b> element can be used: 
+                                        Chapters, Introduction, News items, Contact information.
+                                    </li>
+                                </ul>
+                            </li>  
+                            <li style="margin-bottom:15px;">
+                                HTML <b>&lt;article&gt;</b> Element :
+                                <ul class="inside">
+                                    <li>The <b>&lt;article&gt;</b> element specifies independent, self-contained content.</li>
+                                    <li>
+                                        Examples of where the <b>&lt;article&gt;</b> element can be used:
+                                        Forum posts, Blog posts, User comments, Product cards, Newspaper articles.
+                                    </li>
+                                </ul>
+                            </li>  
+                            <li style="margin-bottom:15px;">
+                                HTML <b>&lt;header&gt;</b> Element :
+                                <ul class="inside">
+                                    <li>The <b>&lt;header&gt;</b> element represents a container for introductory content or a set of navigational links.</li>
+                                    <li>
+                                        A <b>&lt;header&gt;</b> element typically contains:
+                                        one or more heading elements, logo or icon, authorship information.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li style="margin-bottom:15px;">
+                                HTML <b>&lt;footer&gt;</b> Element :
+                                <ul class="inside">
+                                    <li>The <b>&lt;footer&gt;</b> element defines a footer for a document or section.</li>
+                                    <li>
+                                        A <b>&lt;footer&gt;</b> element typically contains:
+                                        authorship information, copyright information, contact information
+                                        sitemap, back to top links.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li style="margin-bottom:15px;">
+                                HTML <b>&lt;nav&gt;</b> Element :
+                                <ul class="inside">
+                                    <li>The <b>&lt;nav&gt;</b> element defines a set of <b>navigation links</b>.</li>
+                                </ul>
+                            </li>
+                            <li style="margin-bottom:15px;">
+                                HTML <b>&lt;aside&gt;</b> Element :
+                                <ul class="inside">
+                                    <li>The <b>&lt;aside&gt;</b> element defines some content aside from the content it is placed in (like a sidebar).</li>
+                                    <li>The <b>&lt;aside&gt;</b> content should be indirectly related to the surrounding content.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="audio-video cont">
+                <div class="head">
+                    <h2>HTML Audio & Video</h2>
+                </div>
+                <div class="body">
+                    <ul>
+                        <li>
+                            <h3>HTML Audio</h3>
+                            <ul class="inside">
+                                <li>The HTML <b>&lt;audio&gt;</b> element is used to play an audio file on a web page.</li>
+                                <li>The <ins>controls</ins> attribute adds audio controls, like play, pause, and volume.</li>
+                                <li>The <b>&lt;source&gt;</b> element allows you to specify alternative audio files which the browser may choose from.</li>
+                                <li>The text between the <b>&lt;audio&gt;</b> and <b>&lt;/audio&gt;</b> tags will only be displayed in browsers that do not support the <b>&lt;audio&gt;</b> element.</li>
+                                <li>To start an audio file automatically, use the <ins>autoplay</ins> attribute.</li>
+                                <li>Chromium browsers do not allow <ins>autoplay</ins> in most cases. However, <ins>muted</ins> autoplay is always allowed.</li>
+                            </ul>
+                            </li>
+                        <li>
+                            <h3>HTML Video</h3>
+                            <ul class="inside">
+                                <li>The HTML <b>&lt;video&gt;</b> element is used to show a video on a web page.</li>
+                                <li>The <ins>controls</ins> attribute adds video controls, like play, pause, and volume.</li>
+                                <li>It is a good idea to always include <ins>width</ins> and <ins>height</ins> attributes.</li>
+                                <li>The <b>&lt;source&gt;</b> element allows you to specify alternative video files which the browser may choose from.</li>
+                                <li>The text between the <b>&lt;video&gt;</b> and <b>&lt;/video&gt;</b> tags will only be displayed in browsers that do not support the <b>&lt;video&gt;</b> element.</li>
+                                <li>To start an video file automatically, use the <ins>autoplay</ins> attribute.</li>
+                                <li>Chromium browsers do not allow <ins>autoplay</ins> in most cases. However, <ins>muted</ins> autoplay is always allowed.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="forms cont">
+                <div class="head">
+                    <h2>HTML Forms</h2>
+                </div>
+                <div class="body">
+                    <p>An HTML <b>form</b> is used to collect user input. The user input is most often sent to a server for processing.</p>
+                </div>
+            </div>
+
+            <div class="useful-links cont">
+                <div class="head">
+                    <h2>Useful Links</h2>
+                </div>
+                <div class="body">
+                    <div class="left col">
+                        <ul>
+                            <li><a href="https://www.youtube.com/watch?v=IGeh2mlM9Rg" target="_blank">
+                                Div And How To Use</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=xlQwlfvrDuI" target="_blank">
+                                Semantic Elements</a></li> 
+                            <li><a href="https://www.youtube.com/watch?v=KltQb6cJSd8" target="_blank">
+                                Audio</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=inC9gWjNMJI" target="_blank">
+                                Form Part 1 - Input Types And Label</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=Anfn7RzoDHw" target="_blank">
+                                Form Part 3 - Action, Name, Method</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=rpPIRitcAn8" target="_blank">
+                                Form Part 5 - ReadOnly, Disabled, Autofocus</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=HGB42mnD0o4" target="_blank">
+                                Form Part 7 - Select And Textarea</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=X_TGbRuZ80Q" target="_blank">
+                                Form Part 9 - Data List, Novalidate, Target</a></li>
+                        </ul>
+                    </div>
+                    <div class="right col">
+                        <ul>
+                            <li><a href="https://www.w3schools.com/html/html_div.asp" target="_blank">
+                                "HTML Div Element"</a></li>
+                            <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics" 
+                                target="_blank">"Semantics"</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=oJbo28ewnL4" target="_blank">
+                                Video</a></li> 
+                            <li><a href="https://www.youtube.com/watch?v=3xd1IQ3llBk" target="_blank">
+                                Form Part 2 - Required, Placeholder, Value</a></li> 
+                            <li><a href="https://www.youtube.com/watch?v=ZUax-YsT57I" target="_blank">
+                                Form Part 4 - Hidden, Reset, Color, Range, Number</a></li>   
+                            <li><a href="https://www.youtube.com/watch?v=YAcn1MyAcDM" target="_blank">
+                                Form Part 6 - Radio And Checkbox</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=cSmE9cVeaYg" target="_blank">
+                                Form Part 8 - File, Search, URL, Time</a></li>
+                            <li><a href="" target="_blank"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
