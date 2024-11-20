@@ -6,3 +6,4 @@ Introduction to Client-side technologies (HTML5, part2)
 - HTML Audio 
 - HTML Video
 - HTML Forms
+- HTML Accessibility
