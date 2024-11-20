@@ -168,6 +168,210 @@
                 </div>
                 <div class="body">
                     <p>An HTML <b>form</b> is used to collect user input. The user input is most often sent to a server for processing.</p>
+                    <div class="content">
+                        <img src="images/form.png" alt="form">
+                    </div>
+                    <code>
+                        <p><b>Example Code:</b></p>
+                        <b>&lt;form</b> <ins>action</ins>="/submit" <ins>method</ins>="post"<b>&gt;</b><br>
+                        <b>&lt;label</b> <ins>for</ins>="userName"<b>&gt;</b>Username:<b>&lt;/label&gt;</b><br>
+                        <b>&lt;input</b> <ins>type</ins>="text" <ins>id</ins>="userName" <ins>name</ins>="userName"<b>&gt;</b><br>
+                        <b>&lt;label</b> <ins>for</ins>="password"<b>&gt;</b>Password:<b>&lt;/label&gt;</b><br>
+                        <b>&lt;input</b> <ins>type</ins>="password" <ins>id</ins>="password" <ins>name</ins>="password"<b>&gt;</b><br>
+                        <b>&lt;input</b> <ins>type</ins>="submit" <ins>value</ins>="Submit"<b>&gt;</b>
+                    </code>
+
+                    <h3>HTML Form Elements</h3>
+                    <table>
+                        <tr>
+                            <th>Element</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;form&gt;</b></td>
+                            <td>Defines an HTML form for user input</td> 
+                        </tr>
+                        <tr>
+                            <td><b>&lt;label&gt;</b></td>
+                            <td>Defines a label for an input element</td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input&gt;</b></td>
+                            <td>Defines a form input element</td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;textarea&gt;</b></td>
+                            <td>Defines a multi-line text input element</td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;select&gt;</b></td>
+                            <td>Defines a drop-down list of options</td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;button&gt;</b></td>
+                            <td>Defines a clickable button</td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;fieldset&gt;</b></td>
+                            <td>Groups related elements in a form</td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;legend&gt;</b></td>
+                            <td>Defines a caption for a fieldset</td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;option&gt;</b></td>
+                            <td>Defines an option in a select element</td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;optgroup&gt;</b></td>
+                            <td>Defines a group of options in a select element</td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;datalist&gt;</b></td>
+                            <td>Defines a list of pre-defined options for an input element</td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;output&gt;</b></td>
+                            <td>Defines the result of a calculation</td>
+                        </tr>
+                    </table><br>
+
+                    <h3>HTML Input Types:</h3>
+                    <table>
+                        <tr>
+                            <th>Type</th>
+                            <th>Description</th>
+                            <th>Basic Examples</th>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="text"<b>&gt;</b></td>
+                            <td>Displays a single-line text input field</td>
+                            <td><input type="text" placeholder="single-line text"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="email"<b>&gt;</b></td>
+                            <td>A field for editing an email address</td>
+                            <td><input type="email" placeholder="example@gmail.com"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="password"<b>&gt;</b><br></td>
+                            <td>A control for entering a password (the characters are hidden)</td>
+                            <td><input type="password" value="password"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="tel"<b>&gt;</b><br></td>
+                            <td>A control for entering a telephone number</td>
+                            <td><input type="tel" placeholder="+201234567890"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="radio"<b>&gt;</b></td>
+                            <td>Displays a radio button (for selecting one of many choices)</td>
+                            <td><input type="radio"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="checkbox"<b>&gt;</b></td>
+                            <td>Displays a checkbox (for selecting zero or more of many choices)</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="color"<b>&gt;</b></td>
+                            <td>A control for specifying a color</td>
+                            <td><input type="color" value="#ff0000"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="time"<b>&gt;</b></td>
+                            <td>A control for entering a time (this is in the form of two numbers separated by spaces)</td>
+                            <td><input type="time" value="12:30"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="date"<b>&gt;</b><br></td>
+                            <td>A control for entering a date(year, month, and day, with no time)</td>
+                            <td><input type="date" value="2024-11-20"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="week"<b>&gt;</b><br></td>
+                            <td>A control for entering a week and year, with no time zone</td>
+                            <td><input type="week"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="month"<b>&gt;</b><br></td>
+                            <td>A control for entering a month and year, with no time zone</td>
+                            <td><input type="month" value="2024-11"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="datetime-local"<b>&gt;</b><br></td>
+                            <td>A control for entering a date and time (with no timezone)</td>
+                            <td><input type="datetime-local" value="2024-11-20T14"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="file"<b>&gt;</b><br></td>
+                            <td>A control for selecting a file</td>
+                            <td><input type="file"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="search"<b>&gt;</b><br></td>
+                            <td>Displays a text input field with a search icon, often used for search boxes</td>
+                            <td><input type="search"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="url"<b>&gt;</b><br></td>
+                            <td>A control for entering a URL</td>
+                            <td><input type="url" value="https://www.example.com"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="hidden"<b>&gt;</b><br></td>
+                            <td>A control that is not displayed but whose value is submitted to the server</td>
+                            <td><input type="hidden" value="hidden value"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="image"<b>&gt;</b><br></td>
+                            <td>A control that is displayed as an image (and acts like a submit button)</td>
+                            <td><input type="image" src="image.jpg" value="submit"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="number"<b>&gt;</b><br></td>
+                            <td>A control for entering a number</td>
+                            <td><input type="number" value="10" min="0" max="100" step="10"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="range"<b>&gt;</b><br></td>
+                            <td>A control for entering a number, with a slider</td>
+                            <td><input type="range" value="50" min="0" max="100" step="10"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="reset"<b>&gt;</b><br></td>
+                            <td>A button that resets the contents of the form to default values</td>
+                            <td><input type="reset"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="submit"<b>&gt;</b></td>
+                            <td>Displays a submit button (for submitting the form)</td>
+                            <td><input type="submit"></td>
+                        </tr>
+                        <tr>
+                            <td><b>&lt;input</b> <ins>type</ins>="button"<b>&gt;</b></td>
+                            <td>Displays a clickable button</td>
+                            <td><input type="button" value="click me"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="accessability cont">
+                <div class="head">
+                    <h2>Accessability in HTML</h2>
+                </div>
+                <div class="body">
+                    <p><b>Accessability</b> in HTML is used to make the website accessible to all users.</p>
+                    <p>There are several ways to make a website accessible:</p>
+                    <ul>
+                        <li>Use <b>alt</b> attribute for images</li>
+                        <li>Use <b>title</b> attribute for links</li>
+                        <li>Use <b>label</b> attribute for form elements</li>
+                        <li>Use <b>aria</b> attribute for accessibility</li>
+
+                    </ul>
                 </div>
             </div>
 
@@ -194,6 +398,8 @@
                                 Form Part 7 - Select And Textarea</a></li>
                             <li><a href="https://www.youtube.com/watch?v=X_TGbRuZ80Q" target="_blank">
                                 Form Part 9 - Data List, Novalidate, Target</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=lSqXHePabFo" target="_blank">
+                                Accessibility Intro</a></li>
                         </ul>
                     </div>
                     <div class="right col">
@@ -212,7 +418,10 @@
                                 Form Part 6 - Radio And Checkbox</a></li>
                             <li><a href="https://www.youtube.com/watch?v=cSmE9cVeaYg" target="_blank">
                                 Form Part 8 - File, Search, URL, Time</a></li>
-                            <li><a href="" target="_blank"></a></li>
+                            <li><a href="https://www.w3schools.com/html/html_forms_attributes.asp" target="_blank">
+                                "HTML Forms Attributes"</a></li>
+                            <li><a href="https://www.w3schools.com/html/html_accessibility.asp" target="_blank">
+                                "HTML Accessibility"</a></li>
                         </ul>
                     </div>
                 </div>
